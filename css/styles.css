@@ -10,17 +10,8 @@ body {
   line-height: 1.5;
 }
 
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 /* ЛОГОТИП */
-.logo,
-.header-logo,
-.footer-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -37,13 +28,19 @@ body {
   color: #f4f4fd;
 }
 
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Навигация */
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .nav-list {
   display: flex;
   list-style: none;
@@ -51,7 +48,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -94,7 +90,7 @@ body {
 }
 
 /* HERO */
-.hero {
+.hero-section {
   background-color: #2e2f42;
   color: #fff;
   text-align: center;
@@ -128,6 +124,7 @@ body {
 }
 
 /* FEATURES */
+.features-section {}
 .features-list {
   display: flex;
   gap: 24px;
@@ -155,7 +152,7 @@ body {
 }
 
 /* TEAM */
-.team {
+.team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
@@ -199,7 +196,7 @@ body {
 }
 
 /* PORTFOLIO */
-.portfolio {
+.portfolio-section {
   padding: 120px 0;
 }
 .portfolio-list {
