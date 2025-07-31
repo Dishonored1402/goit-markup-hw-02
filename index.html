@@ -6,24 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>WebStudio</title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:700&family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <!-- Modern Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
   <header>
     <div class="container">
       <nav class="nav">
-        <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
+        <a href="./index.html" class="logo header-logo">
+          Web<span class="logo-accent">Studio</span>
+        </a>
         <ul class="nav-list">
-          <li><a href="#" class="nav-link active">Studio</a></li>
-          <li><a href="#" class="nav-link">Portfolio</a></li>
-          <li><a href="#" class="nav-link">Contacts</a></li>
+          <li><a href="./index.html" class="nav-link active">Studio</a></li>
+          <li><a href="" class="nav-link">Portfolio</a></li>
+          <li><a href="" class="nav-link">Contacts</a></li>
         </ul>
-        <ul class="contacts-list">
-          <li><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a></li>
-        </ul>
+        <address class="contacts-address">
+          <ul class="contacts-list">
+            <li><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
       </nav>
     </div>
   </header>
@@ -32,7 +39,6 @@
     <section class="hero">
       <div class="container">
         <h1 class="hero-title">Effective Solutions<br>for Your Business</h1>
-        <p class="hero-subtitle">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         <button class="hero-btn" type="button">Order Service</button>
       </div>
     </section>
@@ -95,68 +101,48 @@
         <ul class="portfolio-list">
           <li class="portfolio-card">
             <img src="images/banking-app.jpg" width="360" alt="Banking App"/>
-                <div class="portfolio-info">
-                    <h3 class="portfolio-name">Banking App</h3>
-                    <p class="portfolio-type">App</p>
-                </div>
-            </li>
+            <h3 class="portfolio-name">Banking App</h3>
+            <p class="portfolio-type">App</p>
+          </li>
           <li class="portfolio-card">
             <img src="images/cashless-payment.jpg" width="360" alt="Cashless Payment"/>
-                <div class="portfolio-info">
-                    <h3 class="portfolio-name">Cashless Payment</h3>
-                    <p class="portfolio-type">Marketing</p>
-                </div>
+            <h3 class="portfolio-name">Cashless Payment</h3>
+            <p class="portfolio-type">Marketing</p>
           </li>
           <li class="portfolio-card">
             <img src="images/meditation-app.jpg" width="360" alt="Meditation App"/>
-                <div class="portfolio-info">
-                    <h3 class="portfolio-name">Meditation App</h3>
-                    <p class="portfolio-type">App</p>
-                </div>
+            <h3 class="portfolio-name">Meditation App</h3>
+            <p class="portfolio-type">App</p>
           </li>
           <li class="portfolio-card">
             <img src="images/taxi-service.jpg" width="360" alt="Taxi Service"/>
-                <div class="portfolio-info">
-                    <h3 class="portfolio-name">Taxi Service</h3>
-                    <p class="portfolio-type">Marketing</p>
-                </div>
+            <h3 class="portfolio-name">Taxi Service</h3>
+            <p class="portfolio-type">Marketing</p>
           </li>
           <li class="portfolio-card">
             <img src="images/screen-illustrations.jpg" width="360" alt="Screen Illustrations"/>
-                <div class="portfolio-info">
-                    <h3 class="portfolio-name">Screen Illustrations</h3>
-                    <p class="portfolio-type">Design</p>
-                </div>
+            <h3 class="portfolio-name">Screen Illustrations</h3>
+            <p class="portfolio-type">Design</p>
           </li>
           <li class="portfolio-card">
             <img src="images/online-courses.jpg" width="360" alt="Online Courses"/>
-                <div class="portfolio-info">
-                    <h3 class="portfolio-name">Online Courses</h3>
-                    <p class="portfolio-type">Marketing</p>
-                </div>
+            <h3 class="portfolio-name">Online Courses</h3>
+            <p class="portfolio-type">Marketing</p>
           </li>
         </ul>
       </div>
     </section>
   </main>
-
-<footer class="footer">
-  <div class="container footer-flex">
-    <div class="footer-brand">
+  
+  <footer class="footer">
+    <div class="container footer-flex">
       <a href="./index.html" class="logo footer-logo">
-        <span class="logo-accent">Web</span>Studio
+        Web<span class="logo-accent">Studio</span>
       </a>
       <p class="footer-desc">
         Increase the flow of customers and sales for your business with digital marketing & growth solutions.
       </p>
     </div>
-    <address>
-      <ul class="footer-contacts">
-        <li><a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111" class="footer-contact">+11 (000) 111-11-11</a></li>
-      </ul>
-    </address>
-  </div>
-</footer>
+  </footer>
 </body>
 </html>
