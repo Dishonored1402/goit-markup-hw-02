@@ -41,7 +41,6 @@ body {
 .portfolio-list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .nav-link {
@@ -54,9 +53,12 @@ body {
   transition: color 0.3s;
 }
 
-/* Добавлены стили для hover и focus */
-.nav-link:hover,
+
 .nav-link:focus {
+  color: #404bbf;
+}
+
+.nav-link:hover {
   color: #404bbf;
 }
 
@@ -74,9 +76,11 @@ body {
   transition: color 0.3s;
 }
 
-/* Добавлены стили для hover и focus */
-.address-link:hover,
 .address-link:focus {
+  color: #404bbf;
+}
+
+.address-link:hover {
   color: #404bbf;
 }
 
@@ -108,10 +112,19 @@ body {
   transition: background-color 0.3s;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #404bbf;
+.hero-btn:hover { background-color: #404bbf; }
+.hero-btn:focus { background-color: #404bbf; }
+
+.nav-link:hover { color: #404bbf; }
+.nav-link:focus { color: #404bbf; }
+
+.address-link:hover { color: #404bbf; }
+.address-link:focus { color: #404bbf; }
+
+.portfolio-item {
+  background-color: #fff;
 }
+
 
 .section-adv,
 .section-team,
@@ -133,7 +146,6 @@ body {
   margin-bottom: 72px;
 }
 
-/* ADVANTAGES */
 .adv-subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -149,7 +161,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* TEAM */
 .team-name {
   font-size: 20px;
   font-weight: 500;
@@ -165,7 +176,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* PORTFOLIO */
 .portfolio-name {
   font-size: 20px;
   font-weight: 500;
@@ -185,8 +195,6 @@ body {
 .footer-main {
   background-color: #2e2f42;
   color: #fff;
-  text-align: left;
-  padding: 100px 0;
 }
 
 .footer-text {
