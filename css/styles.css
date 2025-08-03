@@ -43,8 +43,10 @@ body {
   margin: 0;
 }
 
-.nav-list .nav-item:first-child .nav-link-main:hover,
-.nav-list .nav-item:first-child .nav-link-main:focus {
+.nav-link-main:hover {
+  color: #404bbf;
+}
+.nav-link-main:focus {
   color: #404bbf;
 }
 
@@ -80,11 +82,11 @@ body {
   transition: color 0.3s;
 }
 
-.address-link-main:focus {
+.address-link:focus {
   color: #404bbf;
 }
 
-.address-link-main:hover {
+.address-link:hover {
   color: #404bbf;
 }
 
