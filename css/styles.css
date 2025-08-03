@@ -44,10 +44,11 @@ body {
 }
 
 .nav-link:hover {
-  color: #404BBF;
+color: #404bbf;
 }
+
 .nav-link:focus {
-  color: #404BBF;
+color: #404bbf;
 }
 
 .nav-link {
@@ -60,13 +61,6 @@ body {
   transition: color 0.3s;
 }
 
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.nav-link:hover {
-  color: #404bbf;
-}
 
 .address-main,
 .address-footer {
@@ -123,20 +117,6 @@ body {
 }
 .hero-btn:focus {
   background-color: #404bbf;
-}
-
-.nav-link:hover {
-  color: #404bbf;
-}
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.address-link:hover {
-  color: #404bbf;
-}
-.address-link:focus {
-  color: #404bbf;
 }
 
 .portfolio-item {
