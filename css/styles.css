@@ -60,11 +60,11 @@ body {
   transition: color 0.3s;
 }
 
-.nav-link-main:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 
-.nav-link-main:hover {
+.nav-link:hover {
   color: #404bbf;
 }
 
@@ -125,17 +125,17 @@ body {
   background-color: #404bbf;
 }
 
-.nav-link-main:hover {
+.nav-link:hover {
   color: #404bbf;
 }
-.nav-link-main:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 
-.address-link-main:hover {
+.address-link:hover {
   color: #404bbf;
 }
-.address-link-main:focus {
+.address-link:focus {
   color: #404bbf;
 }
 
