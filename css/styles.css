@@ -210,3 +210,23 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+
+/* Для первого пункта меню */
+.nav-link-main:hover { color: #404bbf; }
+.nav-link-main:focus { color: #404bbf; }
+
+/* Для всех ссылок адреса */
+.address-link:hover { color: #404bbf; }
+.address-link:focus { color: #404bbf; }
+
+/* Для всех nav-link */
+.nav-link:hover { color: #404bbf; }
+.nav-link:focus { color: #404bbf; }
+
+/* Для .hero-btn */
+.hero-btn:hover { background-color: #404bbf; }
+.hero-btn:focus { background-color: #404bbf; }
+
+/* Portfolio item - фон */
+.portfolio-item { background-color: #fff; }
