@@ -5,8 +5,6 @@ body {
   margin: 0;
 }
 
-.header-main {
-}
 
 .nav-main {
   margin: 0 auto;
@@ -111,10 +109,10 @@ color: #404bbf;
 }
 
 .hero-btn:hover {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 
 .portfolio-item {
