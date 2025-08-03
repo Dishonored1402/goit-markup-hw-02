@@ -1,13 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #fff;
+  background-color: #FFFFFF;
   margin: 0;
 }
 
-.header-main {
-}
-
+.header-main {}
 .nav-main {
   margin: 0 auto;
 }
@@ -30,9 +28,7 @@ body {
 .logo-span-footer {
   color: #2e2f42;
 }
-.logo-span-footer {
-  color: #f4f4fd;
-}
+.logo-span-footer { color: #f4f4fd; }
 
 .nav-list,
 .address-list,
@@ -41,13 +37,8 @@ body {
 .portfolio-list {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
-
-.nav-list .nav-item:first-child .nav-link-main:hover,
-.nav-list .nav-item:first-child .nav-link-main:focus {
-  color: #404bbf;
-}
-
 
 .nav-link {
   color: #2e2f42;
@@ -59,12 +50,13 @@ body {
   transition: color 0.3s;
 }
 
-
-.nav-link-main:focus {
+/* Только для первого пункта меню */
+.nav-link-main:hover, .nav-link-main:focus {
   color: #404bbf;
 }
 
-.nav-link-main:hover {
+/* Для остальных пунктов меню (по желанию, но GoIT требует только для .nav-link-main) */
+.nav-link:hover, .nav-link:focus {
   color: #404bbf;
 }
 
@@ -82,11 +74,13 @@ body {
   transition: color 0.3s;
 }
 
-.address-link-main:focus {
+/* Только для первой почты */
+.address-link-main:hover, .address-link-main:focus {
   color: #404bbf;
 }
 
-.address-link-main:hover {
+/* Для остальных адресов (по желанию) */
+.address-link:hover, .address-link:focus {
   color: #404bbf;
 }
 
@@ -96,7 +90,7 @@ body {
 }
 
 .hero-title {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -107,7 +101,7 @@ body {
 
 .hero-btn {
   background-color: #4d5ae5;
-  color: #fff;
+  color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -117,29 +111,14 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
 .hero-btn:hover { background-color: #404bbf; }
 .hero-btn:focus { background-color: #404bbf; }
 
-.nav-link:hover { color: #404bbf; }
-.nav-link:focus { color: #404bbf; }
-
-.address-link:hover { color: #404bbf; }
-.address-link:focus { color: #404bbf; }
-
-.portfolio-item {
-  background-color: #fff;
-}
-
-
 .section-adv,
 .section-team,
-.section-portfolio {
-}
+.section-portfolio {}
 
-.section-team {
-  background-color: #f4f4fd;
-}
+.section-team { background-color: #f4f4fd; }
 
 .section-title {
   font-size: 36px;
@@ -196,13 +175,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.portfolio-item { background-color: #FFFFFF; }
 
 .footer-main {
   background-color: #2e2f42;
-  color: #fff;
+  color: #FFFFFF;
 }
-
 .footer-text {
   max-width: 264px;
   margin-bottom: 16px;
@@ -210,23 +188,3 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-
-/* Для первого пункта меню */
-.nav-link-main:hover { color: #404bbf; }
-.nav-link-main:focus { color: #404bbf; }
-
-/* Для всех ссылок адреса */
-.address-link:hover { color: #404bbf; }
-.address-link:focus { color: #404bbf; }
-
-/* Для всех nav-link */
-.nav-link:hover { color: #404bbf; }
-.nav-link:focus { color: #404bbf; }
-
-/* Для .hero-btn */
-.hero-btn:hover { background-color: #404bbf; }
-.hero-btn:focus { background-color: #404bbf; }
-
-/* Portfolio item - фон */
-.portfolio-item { background-color: #fff; }
