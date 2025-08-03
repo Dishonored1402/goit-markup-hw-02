@@ -43,11 +43,11 @@ body {
   margin: 0;
 }
 
-.nav-link-main:hover {
-  color: #404bbf;
+.nav-link:hover {
+  color: #404BBF;
 }
-.nav-link-main:focus {
-  color: #404bbf;
+.nav-link:focus {
+  color: #404BBF;
 }
 
 .nav-link {
